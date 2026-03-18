@@ -10,6 +10,7 @@ background:#f7c9d6;
 overflow-x:hidden;
 }
 
+
 .navbar{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -17,6 +18,11 @@ overflow-x:hidden;
     padding:10px 150px;
     position:relative;
     background:#B4D7FF;
+    
+}
+
+.navbar :hover{
+  color: white;
 }
 
 .nav-left{
